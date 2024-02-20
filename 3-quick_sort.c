@@ -53,6 +53,7 @@ int partition(int *array, size_t size, int left, int right)
 				print_array(array, size);
 		}
 	}
+	skip = 1;
 	swap(array + a + 1, array + right);
 	for (c = 0; c < size; c++)
 	{
